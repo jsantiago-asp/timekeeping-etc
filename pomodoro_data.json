@@ -2,9 +2,10 @@
     "daily_count": {
         "2024-06-01": 3,
         "2024-06-06": 1,
-        "2024-06-08": 1
+        "2024-06-08": 1,
+        "2024-06-17": 1
     },
-    "total_count": 5,
+    "total_count": 6,
     "logs": [
         {
             "task": "atlas mapping",
@@ -25,6 +26,10 @@
         {
             "task": "chapelle show cleaning",
             "datetime": "2024-06-08T14:53:02.284987"
+        },
+        {
+            "task": "admin",
+            "datetime": "2024-06-17T18:52:03.302020"
         }
     ]
 }
