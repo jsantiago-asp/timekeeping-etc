@@ -1,0 +1,30 @@
+{
+    "daily_count": {
+        "2024-06-01": 3,
+        "2024-06-06": 1,
+        "2024-06-08": 1
+    },
+    "total_count": 5,
+    "logs": [
+        {
+            "task": "atlas mapping",
+            "datetime": "2024-06-01T03:22:11.833120"
+        },
+        {
+            "task": "admin",
+            "datetime": "2024-06-01T14:52:18.316627"
+        },
+        {
+            "task": "summer grant and admin",
+            "datetime": "2024-06-01T22:44:40.674328"
+        },
+        {
+            "task": "admin",
+            "datetime": "2024-06-06T19:18:40.572822"
+        },
+        {
+            "task": "chapelle show cleaning",
+            "datetime": "2024-06-08T14:53:02.284987"
+        }
+    ]
+}
