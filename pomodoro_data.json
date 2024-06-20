@@ -4,9 +4,9 @@
         "2024-06-06": 1,
         "2024-06-08": 1,
         "2024-06-17": 1,
-        "2024-06-20": 2
+        "2024-06-20": 3
     },
-    "total_count": 8,
+    "total_count": 9,
     "logs": [
         {
             "task": "atlas mapping",
@@ -40,6 +40,11 @@
             "task": "messages",
             "datetime": "2024-06-20T23:31:56.807243",
             "notes": "amy, julia, macha"
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-06-21T00:28:57.017079",
+            "notes": "Chapelle show. dining area, cans, finish dishes maybe. play music in background.\n\nfor next;\nrespond to majora, send links detroit, etc."
         }
     ]
 }
