@@ -30,7 +30,8 @@ def main():
         [sg.Button('Start', button_color=('white', 'red'), font='Helvetica 12')],
         [sg.Text('Daily Pomodoros:', size=(20, 1), font='Helvetica 12'), sg.Text(data["daily_count"][current_date], size=(5, 1), font='Helvetica 12', key='-DAILY-')],
         [sg.Text('All-time Pomodoros:', size=(20, 1), font='Helvetica 12'), sg.Text(data["total_count"], size=(5, 1), font='Helvetica 12', key='-ALLTIME-')],
-        [sg.Output(size=(60, 10), font='Helvetica 12')]
+        [sg.Text('Notes:', font='Helvetica 12')],
+        [sg.Multiline(size=(60, 10), font='Helvetica 12', key='-NOTES-')]
     ]
 
     window = sg.Window('Pomodoro Timer', layout, element_justification='c')
@@ -46,9 +47,10 @@ def main():
         if event == 'Start' and not countdown_active:
             task = values['-TASK-']
             if not task:
-                print("Please enter a task!")
+                sg.popup("Please enter a task!")
                 continue
-            print(f"Starting task: {task}")
+            notes = values['-NOTES-']
+            sg.popup(f"Starting task: {task}")
             countdown_active = True
             countdown_start_time = time.time()
             window['-TASK-'].update(disabled=True)
@@ -65,7 +67,8 @@ def main():
                 data["total_count"] += 1
                 log_entry = {
                     "task": task,
-                    "datetime": datetime.now().isoformat()
+                    "datetime": datetime.now().isoformat(),
+                    "notes": notes
                 }
                 data["logs"].append(log_entry)
                 save_data(data)
@@ -73,7 +76,8 @@ def main():
                 window['-ALLTIME-'].update(data["total_count"])
                 window['-TASK-'].update('', disabled=False)
                 window['Start'].update(disabled=False)
-                print(f"Pomodoro completed! Task: {task}")
+                window['-NOTES-'].update('')
+                sg.popup(f"Pomodoro completed! Task: {task}")
 
     window.close()
 
