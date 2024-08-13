@@ -1,7 +1,6 @@
 # Jon Santiago
 # jsantiago@asparis.fr
 # Pomodoro app using pysikmplegui
-
 import time
 import json
 from datetime import datetime, date, timedelta
@@ -39,7 +38,9 @@ def main():
         [sg.Text('Pomodoro Timer', size=(30, 1), justification='center', font='Helvetica 20')],
         [sg.Text('What do you plan to do?', font='Helvetica 12'), sg.InputText(key='-TASK-', font='Helvetica 12')],
         [sg.Text('25:00', size=(8, 1), font='Helvetica 48', justification='center', key='-TIMER-')],
-        [sg.Button('Start', button_color=('white', 'red'), font='Helvetica 12')],
+        [sg.Button('Start', button_color=('white', 'red'), font='Helvetica 12'), 
+         sg.Button('Stop', button_color=('white', 'blue'), font='Helvetica 12', disabled=True),
+         sg.Button('Reset', button_color=('white', 'black'), font='Helvetica 12')],
         [sg.Text('Daily Pomodoros:', size=(20, 1), font='Helvetica 12'), sg.Text(data["daily_count"][current_date], size=(5, 1), font='Helvetica 12', key='-DAILY-')],
         [sg.Text('All-time Pomodoros:', size=(20, 1), font='Helvetica 12'), sg.Text(data["total_count"], size=(5, 1), font='Helvetica 12', key='-ALLTIME-')],
         [sg.Text('Notes:', font='Helvetica 12')],
@@ -81,6 +82,20 @@ def main():
             countdown_start_time = time.time()
             window['-TASK-'].update(disabled=True)
             window['Start'].update(disabled=True)
+            window['Stop'].update(disabled=False)
+        if event == 'Stop' and countdown_active:
+            sg.popup(f"Stopping task: {task}")
+            countdown_active = False
+            window['-TASK-'].update(disabled=False)
+            window['Start'].update(disabled=False)
+            window['Stop'].update(disabled=True)
+        if event == 'Reset':
+            sg.popup("Resetting timer")
+            countdown_active = False
+            window['-TIMER-'].update('25:00')
+            window['-TASK-'].update(disabled=False)
+            window['Start'].update(disabled=False)
+            window['Stop'].update(disabled=True)
         if countdown_active:
             elapsed_time = time.time() - countdown_start_time
             remaining_time = max(0, 25 * 60 - elapsed_time)
@@ -103,6 +118,7 @@ def main():
                 window['-ALLTIME-'].update(data["total_count"])
                 window['-TASK-'].update('', disabled=False)
                 window['Start'].update(disabled=False)
+                window['Stop'].update(disabled=True)
                 window['-NOTES-'].update('')
                 log_index = len(data["logs"]) - 1
                 update_log_display()
