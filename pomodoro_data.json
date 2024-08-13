@@ -4,9 +4,14 @@
         "2024-06-06": 1,
         "2024-06-08": 1,
         "2024-06-17": 1,
-        "2024-06-20": 3
+        "2024-06-20": 3,
+        "2024-07-09": 5,
+        "2024-07-15": 7,
+        "2024-08-09": 2,
+        "2024-08-11": 1,
+        "2024-08-12": 2
     },
-    "total_count": 9,
+    "total_count": 26,
     "logs": [
         {
             "task": "atlas mapping",
@@ -45,6 +50,91 @@
             "task": "Cleaning",
             "datetime": "2024-06-21T00:28:57.017079",
             "notes": "Chapelle show. dining area, cans, finish dishes maybe. play music in background.\n\nfor next;\nrespond to majora, send links detroit, etc."
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-09T13:11:55.715826",
+            "notes": "Chapelle Show, dishes, trash sweeping, living room"
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-09T13:50:06.384254",
+            "notes": "next messages: \n\njoseph, daniel vescio, antoinne - update. julie p, arrange a call \n\nsend msg to thomas bryant - army guy"
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-09T19:18:57.947491",
+            "notes": "msg josephe"
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-10T11:24:23.442934",
+            "notes": "msg claudaugh, send photos\nmsg bronx and msg army fr"
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-10T12:53:52.240844",
+            "notes": "email majora, checkin in during break. and email tunde and kyle. ar guy"
+        },
+        {
+            "task": "Admin",
+            "datetime": "2024-07-15T12:49:42.704555",
+            "notes": ""
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-19T23:31:36.496001",
+            "notes": ""
+        },
+        {
+            "task": "Messages",
+            "datetime": "2024-07-20T00:08:17.343898",
+            "notes": ""
+        },
+        {
+            "task": "Cleaning",
+            "datetime": "2024-07-20T22:05:14.591376",
+            "notes": ""
+        },
+        {
+            "task": "Admin",
+            "datetime": "2024-07-29T10:17:05.255426",
+            "notes": ""
+        },
+        {
+            "task": "Admin",
+            "datetime": "2024-07-29T11:08:21.847379",
+            "notes": "The last one I was able to: \nbook flixbus ticket\nlook at prices for confernece ticket\ndecide on mexico city neighborhood \n\n\nnext: \nsend corrected date to julie\nbook airbnb sunday and monday mexico city \nthen puebla for a duration (what duration) \nlook at tickets mexico city to orlando (or daytona)\nlook at tickets for new york to to paris\ndoes mit what's her name still live in mexico city? \nrespond to s farrell - really like this girl"
+        },
+        {
+            "task": "Admin",
+            "datetime": "2024-07-29T16:17:48.529529",
+            "notes": "Now I need to: \n\tbook flight to mexico city ($215)\n\tbook conference fee\n\tbook airbnb(s) \n\tbook flight to florida\n\tbook flight to nyc\n\tbook flight to paris \n\n\tmsg lara - leila? MIT girl who speaks highly of mexico city"
+        },
+        {
+            "task": "DJ PR",
+            "datetime": "2024-08-09T07:35:55.785061",
+            "notes": "Next: do video ffmpeg mp3 download setup ubuntu vm"
+        },
+        {
+            "task": "DJ PR",
+            "datetime": "2024-08-10T15:13:56.186616",
+            "notes": "so frustrating - getting the audio from flac ot go with the \nditing video from malibu \nkdelive\ntrying to get audio to match"
+        },
+        {
+            "task": "Mix Music",
+            "datetime": "2024-08-11T09:28:44.325429",
+            "notes": "3 latino songs\n2 afrobeat\n1 techno"
+        },
+        {
+            "task": "Catch up emails",
+            "datetime": "2024-08-12T21:11:18.861179",
+            "notes": "jeff\nmajora c\nantoinne"
+        },
+        {
+            "task": "Catch up emails",
+            "datetime": "2024-08-12T21:46:21.132458",
+            "notes": "Majora \nJeff lippman\ncarm / adina\nnick + nick \njulia\nfilipa portual"
         }
     ]
 }

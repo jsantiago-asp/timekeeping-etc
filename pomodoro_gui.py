@@ -1,3 +1,7 @@
+# Jon Santiago
+# jsantiago@asparis.fr
+# Pomodoro app using pysikmplegui
+
 import time
 import json
 from datetime import datetime, date, timedelta
