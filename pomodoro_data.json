@@ -9,9 +9,15 @@
         "2024-07-15": 7,
         "2024-08-09": 2,
         "2024-08-11": 1,
-        "2024-08-12": 2
+        "2024-08-12": 2,
+        "2024-08-13": 4,
+        "2024-08-19": 2,
+        "2024-08-23": 1,
+        "2024-08-26": 2,
+        "2024-08-27": 3,
+        "2024-08-28": 2
     },
-    "total_count": 26,
+    "total_count": 40,
     "logs": [
         {
             "task": "atlas mapping",
@@ -135,6 +141,76 @@
             "task": "Catch up emails",
             "datetime": "2024-08-12T21:46:21.132458",
             "notes": "Majora \nJeff lippman\ncarm / adina\nnick + nick \njulia\nfilipa portual"
+        },
+        {
+            "task": "Catch up emails",
+            "datetime": "2024-08-13T14:59:06.654694",
+            "notes": "antoinne\ntunde\n\nnick + nick"
+        },
+        {
+            "task": "Emails and Admin",
+            "datetime": "2024-08-13T20:26:42.675054",
+            "notes": "Airport ride booking"
+        },
+        {
+            "task": "DJ prep and admin",
+            "datetime": "2024-08-13T22:24:11.618311",
+            "notes": "respond to antoinne - send video\nsend video allison \nmake instagram post \nfinish file\nsend money from kracken\n.cue files - what are they? \npython data analysis of .cue files\n\tfind all the .cue files, figure out which songs I play the most"
+        },
+        {
+            "task": "Packing and Admin",
+            "datetime": "2024-08-14T20:41:10.759654",
+            "notes": ""
+        },
+        {
+            "task": "admin and social media",
+            "datetime": "2024-08-21T06:44:27.478506",
+            "notes": "check in for flight\nlook up directions\npost instagram"
+        },
+        {
+            "task": "Reading",
+            "datetime": "2024-08-21T15:34:33.576285",
+            "notes": "majora's book"
+        },
+        {
+            "task": "Reading",
+            "datetime": "2024-08-23T04:43:28.236674",
+            "notes": ""
+        },
+        {
+            "task": "Emails and Admin",
+            "datetime": "2024-08-26T14:50:11.837491",
+            "notes": ""
+        },
+        {
+            "task": "Cleaning and Organizing",
+            "datetime": "2024-08-26T23:59:09.663766",
+            "notes": "New Apartment\nLugggage(s)\nhangers"
+        },
+        {
+            "task": "Cleaning and Organizing",
+            "datetime": "2024-08-27T12:34:05.771520",
+            "notes": "FabLab and Design Lab"
+        },
+        {
+            "task": "Cleaning and Organizing",
+            "datetime": "2024-08-27T19:55:04.133944",
+            "notes": "Chapelle Show final cleaning\nso much stuff everywhere\ndifficult to quaitify where am at in the timeline of completion"
+        },
+        {
+            "task": "Cleaning & Organizing Chapelle Show",
+            "datetime": "2024-08-27T20:30:15.951153",
+            "notes": ""
+        },
+        {
+            "task": "Cleaning & Organizing",
+            "datetime": "2024-08-28T20:01:03.840629",
+            "notes": "Chapelle Show"
+        },
+        {
+            "task": "Cleaning & Organizing",
+            "datetime": "2024-08-28T20:32:05.756088",
+            "notes": ""
         }
     ]
 }
